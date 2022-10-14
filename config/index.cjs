@@ -8,24 +8,24 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxa9b49da2ecafdde1',
+  APP_ID: 'wx4d0e67cd73712d92',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '5436ee046b30a80ca8a1518863707810',
+  APP_SECRET: '07b221a999963329d2e77cf18b0ae1f8',
 
-  PROVINCE: '河北',
-  CITY: '沧州',
+  PROVINCE: '江西',
+  CITY: '赣州',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '晴晴妹妹',
+      name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9tom6npj7NnvCcBUGPjGH2ejJZw',
+      id: 'oI0fX5nNu1DI01SKrw_3MpoQQvEE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '1dW-E5e70h1QBSp8muX5hzKeH90tCeCEJXGZCOczNSE',
+      useTemplateId: 'IQ89JjlK6wW0pS7vMmyDRSe-PBwZVwZjCywJ9gTxd2o',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '03-23',
+      horoscopeDate: '06-19',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -33,7 +33,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '晴晴', year: '2002', date: '03-23',
+          type: '生日', name: '小可爱', year: '1991', date: '06-19',
         },
         {
           //type: '节日', name: '相识纪念日', year: '2022', date: '09-22',
@@ -42,24 +42,24 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        //{ keyword: 'love_day', date: '2022-09-08' },
+        //{ keyword: 'love_message', date: '2022-03-26' },
         // 结婚纪念日
         //{ keyword: 'marry_day', date: '2022-09-09' },
         // 相识的日子
-        { keyword: 'acquaintance_day', date: '2022-09-22' },
+        { keyword: 'acquaintance_day', date: '2021-03-28' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '1dW-E5e70h1QBSp8muX5hzKeH90tCeCEJXGZCOczNSE',
+  CALLBACK_TEMPLATE_ID: 'IQ89JjlK6wW0pS7vMmyDRSe-PBwZVwZjCywJ9gTxd2o',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      //id: 'o9tom6vtfmyWIJ1wirriy_wTn0aE',
+      id: 'oI0fX5nNu1DI01SKrw_3MpoQQvEE',
     }
   ],
 
